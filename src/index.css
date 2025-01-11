@@ -1,0 +1,19 @@
+@tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    body {
+      @apply bg-light dark:bg-dark text-dark dark:text-light;
+    }
+
+    .section {
+      @apply min-h-screen py-20 px-4;
+    }
+
+    .btn-primary {
+      @apply bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-all;
+    }
+
+    .btn-secondary {
+      @apply bg-secondary text-white px-6 py-3 rounded-lg hover:bg-secondary/90 transition-all;
+    }
